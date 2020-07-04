@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: purple;
+}
+
+h1{
+  font-weight: bold;
+}
+header{
+  height: 100px;
+  padding-top: 15px;
+}
+
+.row{
+  align-items: center;
+}
+.container{
+  background: whitesmoke;
+  text-align: center;
+}
+label{
+  font-size: 20px;
+}
+input{
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 40px;
+  background: purple;
+  color: whitesmoke;
+}
+
+#acompanhametos{
+  margin-top: 50px;
+}
+
+.column{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#botaoCalcular{
+  width: 300px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dados{
+  padding-top: 50px;
+  background: whitesmoke;
+  padding-bottom: 50px;
+}
+
+.resultado .row{
+  align-items: center;
+  justify-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 200px;
+  background: rgb(255, 255, 107);
+}
